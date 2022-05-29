@@ -5,113 +5,143 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
       <header>
-          <div class="webstudio"><span style="color:#2196F3;">Web</span>Studio</div>
+          <ul class="webstudio">
+              <li class="webstudio-up"><a href=""><span style="color:#2196F3;">Web</span>Studio</a></li>
+          </ul>
          <nav>
             <ul class="menu"> 
-               <li><a href="">Agencja</a></li>
-               <li><a href="portfoilio.html">Portfolio</a></li>
-               <li><a href="">Kontakt</a></li>      
-          </ul>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-              <a href="tel:+48111111111">tel:+48 111 111 111</a>
+               <li><a class="menu-link" href="">Agencja</a></li>
+               <li><a class="menu-link" href="portfoilio.html">Portfolio</a></li>
+               <li><a class="menu-link" href="">Kontakt</a></li>      
+           </ul>
          </nav>
-
-        <section>
-         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU </h1>
-         <button class="button">Zamów usługe</button>
-        </section>
+            <ul class="contacts">                
+                    <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contacts-link" href="tel:+48111111111">tel:+48 111 111 111</a></li>                
+            </ul>
       </header>
 
-     <main>
-        <table>
-            <tr>
-                <th>LOREM IPSUM</th>
-                <th>LOREM IPSUM</th>
-                <th>LOREM IPSUM</th>
-                <th>LOREM IPSUM</th>
-            </tr>
-            <tr>
-                <td>Lorem ipsum dolor sit amet, consectetur <br/>
-                    adipiscing elit. Nam vel arcu sem. Sed <br/>
-                    non sodales dui. Interdum et malesuada</td>
-                <td>Lorem ipsum dolor sit amet, consectetur <br/>
-                    adipiscing elit. Nam vel arcu sem. Sed <br/>
-                    non sodales dui. Interdum et malesuada</td>
-                <td>Lorem ipsum dolor sit amet, consectetur <br/>
-                    adipiscing elit. Nam vel arcu sem. Sed <br/>
-                    non sodales dui. Interdum et malesuada</td>
-                 <td>Lorem ipsum dolor sit amet, consectetur <br/>
-                     adipiscing elit. Nam vel arcu sem. Sed <br/>
-                     non sodales dui. Interdum et malesuada</td>
-            </tr>
+      <main>
+        <section>
+         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU </h1>
+         <button type="button">Zamów usługe</button>
+        </section>
 
-        </table>
+        <section>
+              <ul class="lorem-ipsum">
+                    <li class="lorem-ipsum-1">LOREM IPSUM</li>
+                      <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur 
+                         adipiscing elit. Nam vel arcu sem. Sed 
+                         non sodales dui. Interdum et malesuada
+                        </li>
+                      </ul>
+              <ul class="lorem-ipsum">
+                    <li class="lorem-ipsum-2">LOREM IPSUM</li>
+                      <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Nam vel arcu sem. Sed
+                        non sodales dui. Interdum et malesuada
+                        </li>
+                      </ul>
+              <ul class="lorem-ipsum">
+                    <li class="lorem-ipsum-3">LOREM IPSUM</li>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Nam vel arcu sem. Sed
+                        non sodales dui. Interdum et malesuada
+                       </li>
+                    </ul>
+              <ul class="lorem-ipsum">
+                    <li class="lorem-ipsum-3">LOREM IPSUM</li>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Nam vel arcu sem. Sed
+                        non sodales dui. Interdum et malesuada
+                        </li>
+                    </ul>
+        </section>
 
         <section>
           <h2>Czym się zajmujemy</h2>
-                <img src="X:\go it\obrazy\mniejsze\img.jpg"
-                     alt="photo-1" width="370" height="294"/>
-                <img src="X:\go it\obrazy\mniejsze\img (1) (1).jpg"
-                     alt="photo-2" width="370" height="294"/>
-                <img src="X:\go it\obrazy\mniejsze\img (2).jpg"
-                     alt="photo-3" width="370" height="294"/>                    
+            <ul class="occupation">
+                <li class="occupation-1"><img src="./images/16.jpg"
+                     alt="photo-1" width="370" height="294"/></li>
+                <li class="occupation-2"><img src="./images/14.jpg"
+                     alt="photo-2" width="370" height="294"/></li>
+                <li class="occupation-3"><img src="./images/15.jpg"
+                     alt="photo-3" width="370" height="294"/></li>
+             </ul>
         </section>
 
         <section>
-            <h2>Nasz zespół</h2>
+            <h3>Nasz zespół</h3>
+            <ul class="team">
+                
+            <li class="team-members-1">
             <figure>
-              <img src="X:\go it\obrazki\obrazki ludzi\zmniejszone\M1.jpg"
+              <img src="./images/13.jpg"
                    alt="John Doe" width="270" height="260"/>  
                    <figcaption>
-                     <div class="John-Doe">John Doe</div> 
-                     <div class="description">Product Designer</div>
+                     <h4 class="John-Doe">John Doe</h4> 
+                     <p class="description">Product Designer</p>
                    </figcaption>
             </figure>
-
+            </li>
+            
+            <li class="team-members-2">
             <figure>
-                <img src="X:\go it\obrazki\obrazki ludzi\zmniejszone\img (1).jpg"
+                <img src="./images/1.jpg"
                      alt="woman" width="270" height="260"/>  
                      <figcaption>
-                      <div class="John-Doe">John Doe</div>
-                      <div class="description">Frontend Developer</div>                      
+                      <h4 class="John-Doe">John Doe</h4>
+                      <p class="description">Frontend Developer</p>                      
                      </figcaption>
               </figure>
+            </li>
 
+            <li class="team-members-3">
               <figure>
-                <img src="X:\go it\obrazki\obrazki ludzi\zmniejszone\img (2).jpg"
+                <img src="./images/2.jpg"
                      alt="man 2" width="270" height="260"/>  
                      <figcaption>
-                      <div class="John-Doe">John Doe</div>
-                      <div class="description">Marketing</div>
+                      <h4 class="John-Doe">John Doe</h4>
+                      <p class="description">Marketing</p>
                      </figcaption>
               </figure>
+            </li>
 
+            <li class="team-members-4"></li>
               <figure>
-                <img src="X:\go it\obrazki\obrazki ludzi\zmniejszone\img (3).jpg"
+                <img src="./images/3.jpg"
                      alt="man 3" width="270" height="260"/>  
                      <figcaption>
-                      <div class="John-Doe">John Doe</div>
-                      <div class="description">UI Designer</div>
+                      <h4 class="John-Doe">John Doe</h4>
+                      <p class="description">UI Designer</p>
                      </figcaption>
               </figure>
-
+            </ul>
 
         </section>
 
     </main>
 
     <footer>
-          <div class="webstudio"><span style="color:#2196F3;">Web</span><span style="color: #FFFFFF;">Studio</span></div>
+        <ul class="webstudio">
+            <li class="webstudio-down"><a href=""><span style="color:#2196F3;">Web</span>Studio</a></li>
+        </ul>
             <adress>
-            m. Warszawa, Aleje Jerozolimskie 21  <br/>  
-            <a href="mailto:info@example.com">info@example.com</a> <br />
-            <a href="tel:+48111111111">tel:+48 111 111 111</a>
-            </adress>
+                <ul class="contacts">
+           <li class="contacts-adress"> m. Warszawa, Aleje Jerozolimskie 21 </li>
+           <li class="contacts-email"><a href="mailto:info@example.com">info@example.com</a></li>
+           <li class="contacts-telephone"><a href="tel:+48111111111">tel:+48 111 111 111</a></li>
+                </ul>
+        </adress>
     </footer>
     </body>
 
