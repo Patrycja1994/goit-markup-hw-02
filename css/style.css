@@ -67,7 +67,7 @@ button {
     line-height: 1.9;
     display: flex;
     color: var(--pure-white);
-    background: var(--grey);
+    background: var(--blue);
     border: none;
     cursor: pointer;
     font-family: inherit;
