@@ -13,11 +13,11 @@ a {
     color: #212121;
 }
 
-.menu,
-.contacts {
+.menu a,
+.contacts a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
 }
 
 .menu a:hover,
@@ -33,13 +33,13 @@ a {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
 }
 
 h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -50,7 +50,7 @@ h1 {
 button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     display: flex;
     color: #FFFFFF;
     background: #2196F3;
@@ -61,7 +61,7 @@ button {
 .button button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
@@ -76,14 +76,14 @@ button {
 .lorem-ipsum>li {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     color: #212121;
 }
 
 ul li {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -92,21 +92,21 @@ h2,
 h3 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     color: #212121;
 }
 
 .John-Doe {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     color: #212121;
 }
 
 .description {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     color: #757575;
 }
 
@@ -119,14 +119,14 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: #FFFFFF
 }
 
 footer ul li {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: #FFFFFF;
 }
 
@@ -138,12 +138,12 @@ footer ul li {
 h5 {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     color: #212121;
 }
 .picture-title p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     color: #757575;
 }
