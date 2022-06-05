@@ -9,41 +9,47 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">   
         </head>
         
     <body>
-    <header>
-        <ul class="webstudio">
-            <li class="webstudio-up"><a href="index.html"><span style="color:#2196F3;">Web</span>Studio</a></li>
-        </ul>
-        <nav>
-            <ul class="menu">
-                <li><a class="menu-link" href="">Agencja</a></li>
-                <li><a class="menu-link" href="portfolio.html">Portfolio</a></li>
-                <li><a class="menu-link" href="">Kontakt</a></li>
+      <header class="page-header">
+          <div class="container">
+          <ul class="webstudio">
+              <li class="webstudio-up"><a href="index.html"><span style="color:#2196F3;">Web</span>Studio</a></li>
+          </ul>
+         <nav>
+            <ul class="menu"> 
+               <li class="menu-list"><a class="menu-link" href="">Agencja</a></li>
+               <li class="menu-list"><a class="menu-link" href="portfolio.html">Portfolio</a></li>
+               <li class="menu-list"><a class="menu-link" href="">Kontakt</a></li>      
+           </ul>
+         </nav>
+            <ul class="contacts">                
+                    <li class="contacts-list"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="contacts-list"><a class="contacts-link" href="tel:+48111111111">tel:+48 111 111 111</a></li>                
             </ul>
-        </nav>
-        <ul class="contacts">
-            <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contacts-link" href="tel:+48111111111">tel:+48 111 111 111</a></li>
-        </ul>
-    </header>
+            </div>
+      </header>
 
     <main>
-         <section>
-             <ul class="button">
-              <li><button type="button">Wszystkie</button></li>
-              <li><button type="button">Strony</button></li>
-              <li><button type="button">Aplikacje</button></li>
-              <li><button type="button">Dizajn</button></li>
-              <li><button type="button">Marketing</button></li>
+         <section class="second-button">
+          <div class="container">
+             <ul class="second-button">
+              <li class="second-page-button"><button type="button">Wszystkie</button></li>
+              <li class="second-page-button"><button type="button">Strony</button></li>
+              <li class="second-page-button"><button type="button">Aplikacje</button></li>
+              <li class="second-page-button"><button type="button">Dizajn</button></li>
+              <li class="second-page-button"><button type="button">Marketing</button></li>
             </ul>
-         </section>
+          </div>
+        </section>
 
-        <section>
+        <section class="pictures-portfolio">
+          <div class="container">
             <ul class="picture">
                 <li class="picture-title">
-            <figure>
+            <figure class="pictures">
                 <img src="./images/12.jpg" />
                 <figcaption>
                     <h5 class="picture-title">Technocrack</h5>
@@ -53,7 +59,7 @@
                 </li>
 
                 <li class="picture-title">
-            <figure>
+            <figure class="pictures">
                 <img src="./images/9.jpg" />
                 <figcaption>
                     <h5 class="picture-title">Grafika New Orlean vs Golden Star</h5>
@@ -63,7 +69,7 @@
                 </li>
 
                 <li class="picture-title">
-            <figure>
+            <figure class="pictures">
                 <img src="./images/10.jpg" />
                 <figcaption>
                     <h5 class="picture-title">Restauracja Seafood</h5>
@@ -73,7 +79,7 @@
                 </li>
 
                 <li class="picture-title">
-            <figure>
+            <figure class="pictures">
                 <img src="./images/11.jpg" />
                 <figcaption>
                     <h5 class="picture-title">Projekt Prime</h5>
@@ -83,7 +89,7 @@
                 </li>
 
                 <li class="picture-title">
-            <figure>
+            <figure class="pictures">
                 <img src="./images/4.jpg" />
                 <figcaption>
                     <h5 class="picture-title">Projekt Boxes</h5>
@@ -93,7 +99,7 @@
                 </li>
 
                 <li class="picture-title">
-            <figure>
+            <figure class="pictures">
                 <img src="./images/5.jpg" />
                 <figcaption>
                     <h5 class="picture-title">Inspiration has no Borders</h5>
@@ -103,7 +109,7 @@
                 </li>
 
                 <li class="picture-title">
-            <figure>
+            <figure class="pictures">
                 <img src="./images/6.jpg" />
                 <figcaption>
                     <h5 class="picture-title">Magazyn Limited Edition</h5> 
@@ -113,7 +119,7 @@
                 </li>
 
                 <li class="picture-title">
-            <figure>
+            <figure class="pictures">
                 <img src="./images/7.jpg" />
                 <figcaption>
                     <h5 class="picture-title">Projekt LAB</h5>
@@ -123,7 +129,7 @@
                 </li>
 
                 <li class="picture-title">
-            <figure>
+            <figure class="pictures">
                 <img src="./images/8.jpg" />
                 <figcaption>
                     <h5 class="picture-title">Growing Business</h5>
@@ -132,8 +138,12 @@
             </figure>
                 </li>
             </ul>
+        </div>
+        </section>
+        
 </main>
     <footer class="footer">
+        <div class="container">
         <ul class="webstudio">
         <li class="webstudio-down"><a href="index.html"><span style="color:#2196F3;">Web</span>Studio</a></li>
         </ul>
@@ -144,6 +154,7 @@
                 <li class="contacts-telephone"><a href="tel:+48111111111">tel:+48 111 111 111</a></li>
             </ul>
         </address>
+        </div>
     </footer>
 
     </body>
